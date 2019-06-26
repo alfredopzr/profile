@@ -1,0 +1,139 @@
+body {
+/*  background-color: #c4b7a6;*/
+background-image:url("images/guernica-online.jpg");
+}
+img {
+    border-radius: 2%;
+    opacity:1;
+    height: 95px;
+    border-radius: 50%;
+    opacity: 1;
+    width: 95px;
+    object-fit: cover;
+}
+
+a {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  color:#bab2b5;
+  text-decoration: none;
+
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #3b3a30;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+
+h2 {
+font-family: 'Roboto Slab', serif;
+color:#bab2b5;
+}
+p {
+font-family: 'Roboto Slab', serif;
+color:#bab2b5;
+}
+
+ul {
+    list-style: none;
+    padding: 1px;
+}
+li {
+    display: inline-block;
+}
+.shrink:hover
+{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+
+.fade:hover
+{
+  opacity:0.85;
+}
+
+.border:hover
+{
+  box-shadow: inset 0 0 0 25px #53a7ea;
+}
+
+
+.title-font
+{
+  color:#3b3a30;
+  font-family: 'Crimson Text', serif;
+  font-size: 40px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+.subtitle-font
+{
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+  margin-top: 1px;
+  color:#3b3a30;
+}
+
+.body-font
+{
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  color:#3b3a30;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+.card {
+background: #e6e2d3;                       /* White background */
+padding: 20px;
+padding-bottom:10px;                          /* Internal space */
+border-radius: 2px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+margin: 5px;
+text-align: center;
+border: 3px solid white;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+i{
+  font-size: 20px;
+
+}
+.flex-container{
+
+}
+
+
+
